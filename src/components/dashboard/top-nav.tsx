@@ -14,7 +14,6 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { ThemeToggle } from "@/components/dashboard/theme-toggle";
 import { useUserSession } from "@/components/providers/user-session-provider";
 import { userMenuItems } from "./nav-config";
 
@@ -99,9 +98,6 @@ export function TopNav({ siteName, onMenuClick }: TopNavProps) {
           <Bell className="h-5 w-5 text-text-muted" />
           <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-error ring-2 ring-surface" />
         </Button>
-
-        {/* Theme toggle */}
-        <ThemeToggle />
 
         {/* User dropdown */}
         {mounted ? (

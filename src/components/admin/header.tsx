@@ -14,7 +14,6 @@ import {
   LogOut,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "./theme-toggle";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import {
   DropdownMenu,
@@ -137,8 +136,6 @@ export function AdminHeader({ siteName = "HYI Broker" }: AdminHeaderProps) {
           <Bell className="h-4 w-4" />
           <span className="absolute right-1.5 top-1.5 h-2 w-2 rounded-full bg-error" />
         </Button>
-
-        <ThemeToggle />
 
         {mounted ? (
           <DropdownMenu>
