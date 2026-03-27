@@ -300,7 +300,7 @@ export function HomepageContent({ settings, plans }: HomepageContentProps) {
                     </Button>
                   </Link>
                   <Link href="/login">
-                    <Button variant="outline" size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-white text-black border-white hover:bg-gray-100">
+                    <Button variant="outline" size="lg" className="w-full sm:w-auto text-base h-12 px-8 bg-white text-white border-white hover:bg-gray-100">
                       Login
                     </Button>
                   </Link>
